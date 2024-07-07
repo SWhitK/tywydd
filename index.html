@@ -15,12 +15,13 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -28,7 +29,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="current-city">Cardiff</h1>
+            <h1 class="current-city" id="city">Cardiff</h1>
             <p class="current-weather-details">
               Sunday 12:12, scattered clouds
               <br />
@@ -52,5 +53,6 @@
         <a href="https://tywydd.netlify.app/" target="_blank"> Netlify</a>
       </footer>
     </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
