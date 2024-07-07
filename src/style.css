@@ -28,7 +28,7 @@ a {
 }
 
 .search-form-input {
-  background-color: #ace0f9;
+  background-color: #d8e9f1;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -45,6 +45,46 @@ a {
   color: white;
 }
 
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+  color: #385170;
+}
+.current-weather-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.current-weather-details strong {
+  color: #3baea0;
+}
+.current-temp-container {
+  display: flex;
+}
+.current-temp-icon {
+  font-size: 45px;
+  margin-top: 22px;
+}
+
+.current-temp-data {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #385170;
+}
+.current-temp-unit {
+  margin-top: 16px;
+  font-size: 28px;
+  color: #385170;
+}
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 15px 0 0 0;
